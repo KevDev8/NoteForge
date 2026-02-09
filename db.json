@@ -1,0 +1,117 @@
+{
+    "plans": 
+    [
+        {
+            "id" : 1,
+            "name" : "Personal",
+            "price" : null,
+            "comercial-use" : false,
+            "user-limit" : 1,
+            "project-limit": 3,
+            "features" :
+                [
+                    "Markdown support",
+                    "Local export"
+                ]
+        },
+        {
+            "id" : 2,
+            "name" : "Basic",
+            "price" : 5,
+            "comercial-use" : false,
+            "user-limit" : 1,
+            "project-limit": 15,
+            "features" :
+                [
+                    "Everything in Personal",
+                    "Project tags",
+                    "Cloud sync"
+                ]
+        },
+        {
+            "id" : 3,
+            "name" : "Basic Professional",
+            "price" : 10,
+            "comercial-use" : true,
+            "user-limit" : 1,
+            "project-limit": 15,
+            "features" :
+                [
+                    "Everything in Basic",
+                    "Commercial use license"
+                ]
+        },
+        {
+            "id" : 4,
+            "name" : "Premium",
+            "price" : 12,
+            "comercial-use" : true,
+            "user-limit" : 1,
+            "project-limit": null,
+            "features" :
+                [
+                    "Everything in Basic Professional",
+                    "Unlimited projects",
+                    "Advanced search",
+                    "Templates",
+                    "Priority support"
+                ]
+        },
+        {
+            "id" : 5,
+            "name" : "Team",
+            "price" : 13,
+            "comercial-use" : false,
+            "user-limit" : 10,
+            "project-limit": null,
+            "features" :
+                [
+                    "Everything in Basic",
+                    "Unlimited projects",
+                    "Shared projects",
+                    "Access controls",
+                    "Activity log"
+                ]
+        },
+        {
+            "id" : 6,
+            "name" : "Professional Team",
+            "price" : 15,
+            "comercial-use" : true,
+            "user-limit" : 10,
+            "project-limit": null,
+            "features" :
+                [
+                    "Everything in Team",
+                    "Commercial use license"
+                ]
+        },
+        {
+            "id" : 7,
+            "name" : "Enterprise",
+            "price" : 50,
+            "comercial-use" : true,
+            "user-limit" : null,
+            "project-limit": null,
+            "features" :
+                [
+                    "All features",
+                    "Custom organization workspaces",
+                    "Advanced access controls",
+                    "Dedicated support"
+                ]
+        },
+        {
+            "id" : 8,
+            "name" : "Custom",
+            "price" : null,
+            "comercial-use" : null,
+            "user-limit" : null,
+            "project-limit": null,
+            "features" :
+                [
+                    "Request features to negotiate a custom price"
+                ]
+        }
+    ]
+}
